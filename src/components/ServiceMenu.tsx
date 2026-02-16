@@ -16,14 +16,14 @@ const services = [
         title: "Cura della Pelle Avanzata",
         desc: "Trattamenti ringiovanenti che utilizzano tecnologie all'avanguardia.",
         icon: <Sparkles size={32} className="text-champagne mb-4" />,
-        image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc2069?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1596462502278-27bfaf433393?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 3,
         title: "Nails Artigianali",
         desc: "Cura meticolosa delle unghie e design artistici per una finitura impeccabile.",
         icon: <Paintbrush size={32} className="text-champagne mb-4" />,
-        image: "https://images.unsplash.com/photo-1604654894610-df49ff66a7cb?auto=format&fit=crop&q=80&w=800"
+        image: "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?auto=format&fit=crop&q=80&w=800"
     }
 ];
 
