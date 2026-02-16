@@ -30,7 +30,7 @@ export default function Testimonials() {
                             {testimonials.map((t) => (
                                 <div key={t.id} className="min-w-full snap-center text-center px-4">
                                     <p className="text-2xl md:text-3xl font-serif text-charcoal italic leading-relaxed mb-8">
-                                        "{t.text}"
+                                        &quot;{t.text}&quot;
                                     </p>
                                     <h4 className="text-sm uppercase tracking-[0.3em] font-bold text-charcoal/80">{t.author}</h4>
                                     <p className="text-xs text-charcoal/40 uppercase tracking-widest mt-1">{t.role}</p>
