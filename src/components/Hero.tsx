@@ -21,20 +21,20 @@ export default function Hero() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="max-w-2xl"
+                    className="max-w-2xl text-center md:text-left"
                 >
-                    <span className="text-xs uppercase tracking-[0.4em] text-charcoal/60 mb-4 block">
+                    <span className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-charcoal/60 mb-4 block">
                         Luxury Aesthetics & Wellness
                     </span>
-                    <h1 className="text-6xl md:text-8xl font-serif text-charcoal leading-tight mb-6">
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif text-charcoal leading-tight mb-6">
                         Elevating the Art <br />
                         <span className="italic">of Beauty.</span>
                     </h1>
-                    <p className="text-lg text-charcoal/80 max-w-lg mb-8 font-light leading-relaxed">
+                    <p className="text-base md:text-lg text-charcoal/80 max-w-lg mb-8 font-light leading-relaxed mx-auto md:mx-0">
                         Experience unparalleled care and sophisticated styling in a space designed for harmony and excellence.
                     </p>
-                    <div className="flex space-x-4">
-                        <button className="px-8 py-3 bg-charcoal text-off-white text-sm uppercase tracking-widest rounded-full hover:scale-105 transition-transform">
+                    <div className="flex justify-center md:justify-start space-x-4">
+                        <button className="px-8 py-3 bg-charcoal text-off-white text-xs uppercase tracking-widest rounded-full hover:scale-105 transition-transform">
                             Explore Services
                         </button>
                     </div>

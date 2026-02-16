@@ -55,22 +55,28 @@ export default function Navbar() {
             <AnimatePresence>
                 {isMobileMenuOpen && (
                     <motion.div
-                        initial={{ opacity: 0, y: -20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -20 }}
-                        className="absolute top-full left-0 w-full bg-off-white dark:bg-charcoal p-6 flex flex-col space-y-4 md:hidden shadow-xl"
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.95 }}
+                        className="fixed inset-0 z-40 bg-off-white/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 md:hidden"
                     >
-                        <Link href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-sm uppercase tracking-widest">
+                        <button
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="absolute top-8 right-8 text-charcoal"
+                        >
+                            <X size={32} />
+                        </button>
+                        <Link href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
                             Services
                         </Link>
-                        <Link href="#pros" onClick={() => setIsMobileMenuOpen(false)} className="text-sm uppercase tracking-widest">
+                        <Link href="#pros" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
                             Professionals
                         </Link>
-                        <Link href="#gallery" onClick={() => setIsMobileMenuOpen(false)} className="text-sm uppercase tracking-widest">
+                        <Link href="#gallery" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
                             Gallery
                         </Link>
-                        <button className="w-full py-3 bg-charcoal text-off-white text-xs uppercase tracking-widest rounded-full">
-                            Book Now
+                        <button className="px-12 py-4 bg-charcoal text-off-white text-sm uppercase tracking-widest rounded-full shadow-lg">
+                            Book Appointment
                         </button>
                     </motion.div>
                 )}

@@ -38,7 +38,7 @@ export default function ServiceMenu() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-12">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
                     {services.map((service, index) => (
                         <motion.div
                             key={service.id}
@@ -55,12 +55,12 @@ export default function ServiceMenu() {
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-charcoal/20 group-hover:bg-charcoal/40 transition-colors" />
-                                <div className="absolute bottom-6 left-6 right-6 p-6 glass opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl">
-                                    <p className="text-off-white text-xs leading-relaxed uppercase tracking-wider">{service.desc}</p>
+                                <div className="absolute bottom-6 left-6 right-6 p-6 glass opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500 rounded-xl">
+                                    <p className="text-off-white text-[10px] md:text-xs leading-relaxed uppercase tracking-wider">{service.desc}</p>
                                 </div>
                             </div>
                             <div className="text-center">
-                                <h3 className="text-xl font-serif text-charcoal mb-2">{service.title}</h3>
+                                <h3 className="text-xl md:text-2xl font-serif text-charcoal mb-2">{service.title}</h3>
                                 <div className="w-12 h-px bg-champagne mx-auto transition-all group-hover:w-24" />
                             </div>
                         </motion.div>
