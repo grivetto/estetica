@@ -16,8 +16,8 @@ export default function InstagramFeed() {
         <section id="gallery" className="py-24 bg-white">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-sm uppercase tracking-[0.5em] text-charcoal/40 mb-4">Curated Moments</h2>
-                    <p className="text-2xl font-serif text-charcoal">Follow our journey on Instagram</p>
+                    <h2 className="text-sm uppercase tracking-[0.5em] text-charcoal/40 mb-4">Momenti Curati</h2>
+                    <p className="text-2xl font-serif text-charcoal">Segui il nostro viaggio su Instagram</p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -33,7 +33,7 @@ export default function InstagramFeed() {
                             <img
                                 src={img}
                                 alt="Feed item"
-                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-full object-cover transition-all duration-500"
                             />
                             <div className="absolute inset-0 bg-champagne/10 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </motion.div>

@@ -30,16 +30,16 @@ export default function Navbar() {
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center space-x-8">
                     <Link href="#services" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
-                        Services
+                        Servizi
                     </Link>
                     <Link href="#pros" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
-                        Professionals
+                        Professionisti
                     </Link>
                     <Link href="#gallery" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
-                        Gallery
+                        Galleria
                     </Link>
                     <button className="px-6 py-2 bg-charcoal text-off-white text-xs uppercase tracking-widest hover:bg-opacity-80 transition-all rounded-full">
-                        Book Now
+                        Prenota Ora
                     </button>
                 </div>
 
@@ -67,16 +67,16 @@ export default function Navbar() {
                             <X size={32} />
                         </button>
                         <Link href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
-                            Services
+                            Servizi
                         </Link>
                         <Link href="#pros" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
-                            Professionals
+                            Professionisti
                         </Link>
                         <Link href="#gallery" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
-                            Gallery
+                            Galleria
                         </Link>
                         <button className="px-12 py-4 bg-charcoal text-off-white text-sm uppercase tracking-widest rounded-full shadow-lg">
-                            Book Appointment
+                            Prenota Appuntamento
                         </button>
                     </motion.div>
                 )}

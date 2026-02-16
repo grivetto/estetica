@@ -11,7 +11,7 @@ export default function Hero() {
                 className="absolute inset-0 z-0 bg-cover bg-center"
                 style={{
                     backgroundImage: "url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=2000')",
-                    filter: "brightness(0.9)"
+                    filter: "brightness(1.1) saturate(1.1)"
                 }}
             />
             <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-off-white/20" />
@@ -24,18 +24,18 @@ export default function Hero() {
                     className="max-w-2xl text-center md:text-left"
                 >
                     <span className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-charcoal/60 mb-4 block">
-                        Luxury Aesthetics & Wellness
+                        Estetica di Lusso e Benessere
                     </span>
                     <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif text-charcoal leading-tight mb-6">
-                        Elevating the Art <br />
-                        <span className="italic">of Beauty.</span>
+                        Eleviamo l'Arte <br />
+                        <span className="italic">della Bellezza.</span>
                     </h1>
                     <p className="text-base md:text-lg text-charcoal/80 max-w-lg mb-8 font-light leading-relaxed mx-auto md:mx-0">
-                        Experience unparalleled care and sophisticated styling in a space designed for harmony and excellence.
+                        Vivi una cura senza pari e uno styling sofisticato in uno spazio progettato per l'armonia e l'eccellenza.
                     </p>
                     <div className="flex justify-center md:justify-start space-x-4">
                         <button className="px-8 py-3 bg-charcoal text-off-white text-xs uppercase tracking-widest rounded-full hover:scale-105 transition-transform">
-                            Explore Services
+                            Esplora i Servizi
                         </button>
                     </div>
                 </motion.div>

@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Aura Beauty | Luxury Wellness & Aesthetics",
-  description: "A premium wellness platform for beauty professionals.",
+  title: "Aura Beauty | Benessere di Lusso ed Estetica",
+  description: "Una piattaforma di benessere premium per professionisti della bellezza.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body
         className={`${inter.variable} ${playfair.variable} antialiased`}
       >

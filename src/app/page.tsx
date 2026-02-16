@@ -21,18 +21,18 @@ export default function Home() {
           <div className="text-center md:text-left">
             <h2 className="text-xl font-serif font-bold tracking-tighter text-off-white mb-2 underline decoration-champagne underline-offset-8">AURA BEAUTY</h2>
             <p className="text-[10px] uppercase tracking-widest font-light">
-              Crafting Excellence Since 2026
+              Eccellenza Artigiana dal 2026
             </p>
           </div>
 
           <div className="flex space-x-8 text-[10px] uppercase tracking-widest">
-            <a href="#" className="hover:text-champagne">Privacy Policy</a>
-            <a href="#" className="hover:text-champagne">Terms of Service</a>
-            <a href="#" className="hover:text-champagne">Contact</a>
+            <a href="#" className="hover:text-champagne">Informativa sulla Privacy</a>
+            <a href="#" className="hover:text-champagne">Termini di Servizio</a>
+            <a href="#" className="hover:text-champagne">Contatti</a>
           </div>
 
           <div className="text-[10px] uppercase tracking-widest text-center md:text-right">
-            © 2026 Aura Beauty. All rights Reserved.
+            © 2026 Aura Beauty. Tutti i diritti riservati.
           </div>
         </div>
       </footer>

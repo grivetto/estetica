@@ -6,15 +6,15 @@ import { Quote } from "lucide-react";
 const testimonials = [
     {
         id: 1,
-        text: "Aura Beauty has redefined what luxury wellness means for my salon. The attention to detail is unparalleled.",
+        text: "Aura Beauty ha ridefinito il significato di benessere di lusso per il mio salone. L'attenzione ai dettagli non ha eguali.",
         author: "Elena Rossi",
-        role: "Salon Owner"
+        role: "Proprietaria del Salone"
     },
     {
         id: 2,
-        text: "The most sophisticated platform I've used. It perfectly captures the essence of high-end esthetics.",
+        text: "La piattaforma più sofisticata che abbia mai usato. Cattura perfettamente l'essenza dell'estetica di alto livello.",
         author: "Marco Bianchi",
-        role: "Lead Esthetician"
+        role: "Estetista Capo"
     }
 ];
 
