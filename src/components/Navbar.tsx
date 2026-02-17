@@ -29,18 +29,18 @@ export default function Navbar() {
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center space-x-8">
-                    <Link href="#services" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
+                    <Link href="/servizi" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
                         Servizi
                     </Link>
-                    <Link href="#pros" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
-                        Professionisti
+                    <Link href="/chi-siamo" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
+                        Chi Siamo
                     </Link>
-                    <Link href="#gallery" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
+                    <Link href="/galleria" className="text-sm uppercase tracking-widest hover:text-champagne transition-colors">
                         Galleria
                     </Link>
-                    <button className="px-6 py-2 bg-charcoal text-off-white text-xs uppercase tracking-widest hover:bg-opacity-80 transition-all rounded-full">
+                    <Link href="/contatti" className="px-6 py-2 bg-charcoal text-off-white text-xs uppercase tracking-widest hover:bg-opacity-80 transition-all rounded-full">
                         Prenota Ora
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -66,18 +66,18 @@ export default function Navbar() {
                         >
                             <X size={32} />
                         </button>
-                        <Link href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
+                        <Link href="/servizi" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
                             Servizi
                         </Link>
-                        <Link href="#pros" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
-                            Professionisti
+                        <Link href="/chi-siamo" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
+                            Chi Siamo
                         </Link>
-                        <Link href="#gallery" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
+                        <Link href="/galleria" onClick={() => setIsMobileMenuOpen(false)} className="text-2xl font-serif text-charcoal uppercase tracking-widest hover:text-champagne transition-colors">
                             Galleria
                         </Link>
-                        <button className="px-12 py-4 bg-charcoal text-off-white text-sm uppercase tracking-widest rounded-full shadow-lg">
+                        <Link href="/contatti" onClick={() => setIsMobileMenuOpen(false)} className="px-12 py-4 bg-charcoal text-off-white text-sm uppercase tracking-widest rounded-full shadow-lg text-center">
                             Prenota Appuntamento
-                        </button>
+                        </Link>
                     </motion.div>
                 )}
             </AnimatePresence>
